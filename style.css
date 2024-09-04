@@ -58,3 +58,63 @@ img {
   display: flex;
   gap: 20px;
 }
+
+.top-container .nav .nav-links a {
+  color: #ccc;
+  transition: all 0.3s ease;
+}
+
+.top-container .nav .nav-links a:hover {
+  color: #fff;
+}
+
+.top-container .nav .right-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.top-container .nav .right-section > i {
+  color: #f1f3f2;
+  background: #1e293b;
+  padding: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.top-container .nav .right-section .profile {
+  display: flex;
+  align-items: center;
+  background: #1e293b;
+  padding: 0 10px;
+  border-radius: 50px;
+  gap: 10px;
+}
+
+.top-container .nav .right-section .profile .info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.top-container .nav .right-section .profile .info img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid #f1f3f2;
+}
+
+.top-container .nav .right-section .profile .info a {
+  font-size: 13px;
+}
+
+.top-container .nav .right-section .profile .info p {
+  font-size: 13px;
+  color: #ccc;
+}
+
+.top-container .nav .right-section .profile > i {
+  color: #f1f3f2;
+  font-size: 22px;
+  cursor: pointer;
+}
