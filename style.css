@@ -156,3 +156,16 @@ img {
   padding: 20px;
   border-radius: 18px;
 }
+
+.top-container .status .items-list .item:nth-child(2) {
+  background: #fffbeb;
+}
+
+.top-container .status .items-list .item:nth-child(3) {
+  background: #bfdbfe;
+}
+
+.top-container .status .items-list .item:nth-child(4) {
+  background: #031224;
+  padding: 10px;
+}
